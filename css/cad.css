@@ -1,0 +1,52 @@
+#caption-cad{
+	font-family: 'Good Times';
+	font-size: 50px;
+	color: white;
+	text-shadow: 3px 2px 2px black;
+}
+label{
+	font-family: 'Prototype';
+	color: white;
+	font-size: 30px;
+	text-shadow: 2px 2px 2px black;
+}
+/* ATRIBUTOS PARA SELECT */
+select{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: black;
+	font-size: 15px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px; 
+}
+/* DIV PRA OS CHECKBOX */
+.areas input{
+    width: 20px;
+    height: 20px;
+}
+/* ATRIBUIÇÕES PARA O INPUT */
+input{   
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+}
+/* DIV PARA O RADIO */
+.sexo input{
+	width: 20px;
+	height: 20px;
+}
+
+/*===== AO PASSAR O MOUSE POR CIMA =====*/
+input:hover{ 
+    border:2px solid #C0C0C0;
+}
+select:hover{ 
+    border:2px solid #C0C0C0;
+}
+
+
+fieldset{
+	width: 800px;  /* ALTURA DO FIELDSET */
+	height: 850px; /* LARGURA DO FIELDSET */
+	background-color: rgb(83, 100, 110); /* FUNDO DO FIELDSET */
+}

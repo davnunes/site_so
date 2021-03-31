@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*======= FONTES BAIXADAS =======*/
+@font-face{
+   src: url("../font/font1.ttf");
+   font-family: "Good Times";
+}
+@font-face{
+    src: url("../font/font2.ttf");
+    font-family: "Prototype";
+}
+
+body{
+    border-top: 3px solid orange; /*PEQUENA BORDA PARA O MENU*/
+    background: url('../img/fundo.jpg'); /* LINK IMG*/
+    background-repeat: no-repeat; /* NÃO REPETE A IMG */
+    background-attachment: fixed; /* A IMG NÃO Mexi */
+    background-size: 100%;
+    
+}
+#titulo{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Good Times';
+    text-shadow: 4px 4px 4px black;
+}
+.menu{
+    font-family: 'Prototype'; 
+    color: white;
+    font-size: 30px;
+    text-shadow: 4px 3px 4px black;
+}
+.menu ul li:hover{
+    background-color: rgb(136, 166, 175);
+    border-bottom: 2px solid orange;
+    font-size: 34px;
+}
+.menu ul{
+    list-style: none; 
+}
+.menu ul li{
+    text-align: center;
+    padding: 2px;
+    height: 50px;
+    width: 19.72%;
+    float: left;
+    position: relative; 
+    background-color: rgb(83, 100, 110);
+    
+}
+.menu ul li a{
+    text-decoration: none; 
+    display: block;
+}
+.menu a{
+    color: white;
+}
+
+.menu li  ul{
+    position:absolute; 
+    top:54px; 
+    background-color:rgb(83, 100, 110); 
+    display:none;
+}
+.menu li:hover ul{
+        display:block;
+}
+.menu li ul li{
+    display:block; 
+    width:312px;
+    height: 50px;
+}
+.menu li ul li:hover{
+    border-bottom: 2px solid orange;
+    border-top: 2px solid orange;
+}
+    

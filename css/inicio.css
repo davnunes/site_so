@@ -1,0 +1,85 @@
+.p1{
+    position: absolute;
+    top: 35%;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Prototype';
+    color: aliceblue;
+    background-color: rgb(83, 100, 110);
+    border-radius: 6px;
+    border: 3px solid orange;
+    box-shadow: 3px 3px 3px black;
+}
+.p2{
+    position: absolute;
+    bottom: 2%;
+    right: 1%;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Prototype';
+    color: aliceblue;
+    background-color: rgb(83, 100, 110);
+    border-radius: 6px;
+    border: 3px solid orange;
+    box-shadow: 3px 3px 3px black;
+}
+.p3{
+    position: absolute;
+    bottom: -100%;
+    font-size: 18px;
+    font-family: 'Prototype';
+    color: aliceblue;
+    background-color: rgb(83, 100, 110);
+    border-radius: 6px;
+    border: 3px solid orange;
+    box-shadow: 3px 3px 3px black;
+}
+.p4{
+    position: absolute;
+    bottom: -100%;
+    font-size: 18px;
+    font-family: 'Prototype';
+    color: aliceblue;
+    background-color: rgb(83, 100, 110);
+    border-radius: 6px;
+    border: 3px solid orange;
+    box-shadow: 3px 3px 3px black;
+}
+.p5{
+    position: absolute;
+    bottom: -100%;
+    font-size: 18px;
+    font-family: 'Prototype';
+    color: aliceblue;
+    background-color: rgb(83, 100, 110);
+    border-radius: 6px;
+    border: 3px solid orange;
+    box-shadow: 3px 3px 3px black;
+}
+#g1{
+    border: 3px solid orange;
+    box-shadow: -2px 2px 10px black;
+    position: absolute;
+    right: -38%;
+    top: -10%;
+    width: 360px;
+    height: 260px;;  
+}
+#g2{
+    border: 3px solid orange;
+    box-shadow: -2px 2px 10px black;
+    position: absolute;
+    left: 5%;
+    top: 67%;
+    width: 380px;
+    height: 260px;;  
+}
+#g3{
+    border: 3px solid orange;
+    box-shadow: -2px 2px 10px black;
+    position: absolute;
+    right: -38%;
+    top: -50%;
+    width: 360px;
+    height: 260px;;  
+}

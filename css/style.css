@@ -1,0 +1,19 @@
+@font-face{
+    src: url("../font/font1.ttf");
+    font-family: "Good Times";
+}
+@font-face{
+    src: url("../font/font2.ttf");
+    font-family: "Prototype";
+}
+form{
+    color: white;           
+    font-family: 'Prototype';
+    font-size: 140%;
+    text-shadow: 3% 3% 3% black;
+}
+p{
+    font-family: 'Prototype';
+    color: white;
+    font-size: 20px;
+}
